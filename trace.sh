@@ -22,7 +22,7 @@
 
 
 mulai(){
-	url=https://api.ipgeolocation.io/ipgeo/
+	url=http://ip-api.com/
 	read -p "Please enter the Target IP : " ip
 	curl -s $url$ip
 	sleep 0.3
